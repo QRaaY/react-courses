@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "firstName": "Jhon",
+      "lastName": "Doe",
+      "birthDate": "1995-05-23",
+      "id": 1
+    },
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "birthDate": "1995-05-23",
+      "id": 2
+    },
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "birthDate": "1995-05-23",
+      "id": 3
+    },
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "birthDate": "1995-05-23",
+      "id": 4
+    }
+  ],
+  "books": [],
+  "authors": [],
+  "bookReservations": []
+}
