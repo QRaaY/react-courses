@@ -31,8 +31,8 @@ const lnm = ["Smith", "Johnson", "Williams", "Brown", "Jones", "Garcia","Miller"
 
 function randomDate(date1, date2){
   function randomValueBetween(min, max) {
-      return Math.random() * (max - min) + min;
-    }
+      return Math.floor(Math.random() * (max - min +1) + min);
+    };
   let dateOffsetMin = (365*24*60*60*1000) * 13;
   let dateOffsetMax = (365*24*60*60*1000) * 18;
   date1 = new Date();
@@ -40,7 +40,7 @@ function randomDate(date1, date2){
   date1 = date1.setTime(date1.getTime() - dateOffsetMax);
   date2 = date2.setTime(date2.getTime() - dateOffsetMin);
   return new Date(randomValueBetween(date1,date2)).toLocaleDateString();
-}
+};
 
 let count = process.argv[2];
 
